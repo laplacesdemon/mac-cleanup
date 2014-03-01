@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ~/Library/Application\ Support/iPhone\ Simulator/
 for i in $(ls)
 do
