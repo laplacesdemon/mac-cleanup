@@ -27,4 +27,4 @@ echo "upgrading brew softwares"
 brew upgrade
 
 # perform a cleanup
-cleaup
+cleanup
