@@ -5,5 +5,9 @@ for i in $(ls)
 do
   rm -fr $i/Applications/*
 done
+
 rm -fr ~/Library/Developer/Xcode/DerivedData/*
+
+echo "Cleaning torrentv uploads"
+rm -fr /tmp/torrent-stream
 echo "Cleanup is completed"
