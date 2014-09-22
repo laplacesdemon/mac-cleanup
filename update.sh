@@ -18,6 +18,9 @@ do
     cd "${D}"; git pull origin master; cd ..
 done
 
+# update beets
+pip install --upgrade beets
+
 # update brew 
 echo "updating brew"
 brew update
