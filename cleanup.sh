@@ -7,6 +7,7 @@ do
 done
 
 rm -fr ~/Library/Developer/Xcode/DerivedData/*
+rm -fr ~/Library/Developer/Xcode/Archives/*
 
 echo "Cleaning torrentv uploads"
 rm -fr /tmp/torrent-stream
